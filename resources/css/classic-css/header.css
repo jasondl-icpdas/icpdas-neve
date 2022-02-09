@@ -1,0 +1,1075 @@
+/******************************************
+# HEADER
+******************************************/
+.promo-bar p {
+  line-height: 0;
+}
+.promo-bar a:hover,
+.contact-bar a:hover {
+  text-decoration: underline;
+}
+.site-branding {
+  flex: 0 0 20%;
+}
+
+/******************************************
+# SEARCH BAR
+******************************************/
+
+#parent,
+#searchproduct {
+  border-radius: 0;
+  font-family: "Roboto", Arial, sans-serif;
+}
+#parent {
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+#searchproduct {
+  border: 0;
+  outline: 0;
+  width: 100%;
+  font-size: 0.85rem;
+}
+#searchproduct::-webkit-input-placeholder {
+  color: #005980;
+}
+#searchproduct::-moz-placeholder {
+  color: #005980;
+}
+#searchproduct:-ms-input-placeholder {
+  color: #005980;
+}
+#searchproduct::-ms-input-placeholder {
+  color: #005980;
+}
+#searchproduct::placeholder {
+  color: #005980;
+}
+header select {
+  -moz-appearance: none;
+  appearance: none;
+  background: #fafafb url("../img/caret-down-solid.svg") 96% / 15% no-repeat;
+  background-size: 17px 17px;
+  outline: 0;
+  -webkit-appearance: none;
+}
+select::-ms-expand {
+  display: none;
+}
+
+/******************************************
+# MOBILE MENU
+******************************************/
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+}
+.mobile-menu nav {
+  padding-bottom: 56px;
+}
+.mobile-menu .accordion {
+  transition: 1s ease-in-out;
+}
+.mobile-menu .accordionActive.submenu-item {
+  border: 2px solid #008ecc;
+  color: #008ecc;
+  background: 0;
+}
+
+/******************************************
+# OVERLAY
+******************************************/
+
+.menu-overlay {
+  left: 0;
+  top: 0;
+  width: 0;
+  overflow-x: hidden; /*** disable horizontal scroll ***/
+  z-index: 999999;
+}
+.toggle-close {
+  padding: 1rem 0;
+}
+.toggle-open:hover {
+  cursor: pointer;
+}
+.toggle-close a {
+  color: #fafafb;
+  font-size: 1rem;
+  z-index: 10;
+}
+
+/******************************************
+# GOOGLE TRANSLATE
+******************************************/
+
+.language {
+  height: 50vh;
+  bottom: 0;
+  top: unset;
+}
+.goog-te-gadget,
+.goog-te-combo,
+.goog-logo-link {
+  font-family: "Roboto", Arial, sans-serif !important;
+  color: #fafafb !important;
+  font-weight: 500 !important;
+}
+.goog-te-combo {
+  border-radius: 0;
+  font-size: 0.85rem !important;
+  padding: 1rem;
+  border: 2px solid #fafafb;
+  outline: 0;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  background-color: #005980;
+}
+.goog-te-gadget,
+.goog-logo-link {
+  font-size: 0.5rem !important;
+}
+.goog-te-banner-frame,
+#goog-gt-tt {
+  display: none !important;
+}
+
+/******************************************
+# PROMOTION BANNER
+******************************************/
+
+.promotion {
+  top: 9%;
+  width: 50vw;
+  left: 25vw;
+  background-color: #008ecc;
+  border: 4px solid #fc7019;
+  display: none;
+}
+
+.promotion-container {
+  padding: 15px 10px 50px 10px;
+  width: 100%;
+  float: left;
+}
+
+.promotion-header {
+  width: 100%;
+  text-align: center;
+}
+
+.promotion-amount {
+  width: 100%;
+  text-align: center;
+  float: left;
+  margin-top: -17px;
+}
+
+.promotion-big-font {
+  font-size: 136px;
+  float: left;
+  width: 193px;
+  margin-left: 34%;
+}
+
+.promotion-medium-font {
+  font-size: 70px;
+  float: left;
+  width: 100px;
+  margin-top: 10px;
+}
+
+.promotion-small-font {
+  float: left;
+  width: 121px;
+  margin-top: 89px;
+  margin-left: -96px;
+  text-align: left;
+}
+
+.promotion-content {
+  width: 100%;
+  text-align: left;
+  float: left;
+  padding: 0 12%;
+}
+
+.promotion-buttons {
+  margin-top: 35px;
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+
+.toggle-close-promotion {
+  padding: 0rem 0;
+  width: 97%;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 1680px) {
+  .promotion {
+    width: 67%;
+    left: 15%;
+  }
+}
+@media screen and (max-width: 1366px) {
+  .promotion {
+    width: 72%;
+    left: 15%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .banner-header {
+    font-size: 3rem;
+  }
+  p.fc-wh {
+    font-size: 13px;
+  }
+
+  .promotion-content {
+    padding: 0 10%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .banner-header {
+    font-size: 3rem;
+  }
+  p.fc-wh {
+    font-size: 13px;
+  }
+
+  .promotion-content {
+    padding: 0 10%;
+  }
+}
+@media screen and (max-width: 980px) {
+  .banner-header {
+    font-size: 2.5rem;
+  }
+  .promotion-big-font {
+    margin-left: 23%;
+  }
+
+  .promotion-content {
+    padding: 0 2%;
+  }
+
+  p.fc-wh {
+    font-size: 12px;
+  }
+
+  .fa,
+  .far,
+  .fas {
+    padding-right: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .banner-header {
+    font-size: 2.5rem;
+    line-height: 22px;
+  }
+  .promotion-amount {
+    padding-bottom: 0;
+  }
+  .promotion-big-font {
+    margin-left: 20%;
+    font-size: 121px;
+    width: 157px;
+  }
+  p.fc-wh {
+    line-height: 18px;
+  }
+  .fw-5 {
+    margin-bottom: 23px;
+  }
+  .promotion-small-font {
+    width: 120px;
+    margin-top: 80px;
+    margin-left: -90px;
+    font-size: 13px;
+  }
+  .promotion-content {
+    padding: 0 0;
+  }
+  .promotion-buttons {
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 736px) {
+  .promotion-header .banner-header {
+    font-size: 2rem;
+    line-height: 22px;
+  }
+  .promotion-amount {
+    padding-bottom: 0;
+  }
+  .promotion-big-font {
+    margin-left: 13%;
+    font-size: 121px;
+    width: 157px;
+  }
+  p.fc-wh {
+    line-height: 18px;
+  }
+  .promotion-amount .fw-5 {
+    margin-bottom: 10px;
+  }
+  .promotion-small-font {
+    width: 120px;
+    margin-top: 80px;
+    margin-left: -90px;
+    font-size: 13px;
+  }
+  .promotion-content {
+    padding: 0 0;
+  }
+  .promotion-buttons {
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 667px) {
+  .promotion-header .banner-header {
+    font-size: 1.7rem;
+    line-height: 22px;
+  }
+  .promotion-amount {
+    padding-bottom: 0;
+  }
+  .promotion-big-font {
+    margin-left: 0;
+    font-size: 121px;
+    width: 157px;
+  }
+  p.fc-wh {
+    line-height: 18px;
+  }
+  .fw-5 {
+    margin-bottom: 23px;
+  }
+  .promotion-small-font {
+    width: 95px;
+    margin-top: -10px;
+    margin-left: 6px;
+    font-size: 13px;
+  }
+  .promotion-content {
+    padding: 0 0;
+  }
+  .promotion-buttons {
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 667px) {
+  .promotion-big-font {
+    margin-left: 10%;
+  }
+  .promotion-small-font {
+    margin-top: 78px;
+    margin-left: -88px;
+    width: 106px;
+  }
+  .banner-header {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 481px) {
+  .promotion-header .banner-header {
+    font-size: 1.5rem;
+    line-height: 22px;
+  }
+  .promotion-amount {
+    padding-bottom: 0;
+  }
+  .promotion-big-font {
+    margin-left: 0;
+    font-size: 121px;
+    width: 157px;
+  }
+  p.fc-wh {
+    line-height: 18px;
+  }
+  .fw-5 {
+    margin-bottom: 23px;
+  }
+  .promotion-small-font {
+    width: 110px;
+    margin-top: -10px;
+    margin-left: 6px;
+    font-size: 13px;
+  }
+  .promotion-content {
+    padding: 0 0;
+  }
+  .promotion-buttons {
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 420px) {
+  .promotion-small-font {
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .promotion-header .banner-header {
+    font-size: 1.5rem;
+    line-height: 22px;
+    color: white;
+  }
+  .promotion-amount {
+    padding-bottom: 0;
+  }
+  .promotion-big-font {
+    margin-left: 0;
+    font-size: 90px;
+    width: 115px;
+  }
+  p.fc-wh {
+    line-height: 18px;
+  }
+  .fw-5 {
+    margin-bottom: 23px;
+  }
+  .promotion-small-font {
+    width: 100px;
+    margin-top: -10px;
+    margin-left: 6px;
+    font-size: 13px;
+  }
+  .promotion-content {
+    padding: 0 0;
+  }
+  .promotion-buttons {
+    margin-top: 0;
+  }
+}
+
+/******************************************
+
+# RESPONSIVE
+
+******************************************/
+
+@media screen and (max-width: 349px) {
+  /******************************************
+	# HEADER
+	******************************************/
+  .contact-bar a {
+    font-size: 0.63rem;
+  }
+  .header-buttons-cart {
+    display: flex;
+  }
+}
+@media screen and (min-width: 350px) {
+  /******************************************
+	# HEADER
+	******************************************/
+  .contact-bar {
+    padding: 1rem 0;
+  }
+  .header-buttons-cart {
+    display: flex;
+  }
+}
+@media screen and (min-width: 500px) {
+  /******************************************
+	# HEADER
+	******************************************/
+  .site-branding {
+    max-width: 100px;
+  }
+  .header-buttons-cart {
+    display: flex;
+  }
+}
+@media screen and (max-width: 767px) {
+  .mobile-menu nav,
+  .searchproduct_section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .header-buttons-cart {
+    display: flex;
+    margin-left: 4px;
+  }
+}
+@media screen and (min-width: 768px) {
+  /******************************************
+	# HEADER
+	******************************************/
+  .promo-bar {
+    display: block;
+  }
+  .header-buttons-cart {
+    display: flex;
+    margin-left: 4px;
+  }
+  .contact-bar {
+    background-color: #eff1f2;
+  }
+  .contact-bar a {
+    color: #005980;
+  }
+  .contact-bar-inner {
+    justify-content: space-between;
+  }
+  .contact-bar .ds-no {
+    display: inline-block;
+  }
+  .header-inner {
+    padding: 2rem 0;
+  }
+  .site-branding {
+    margin-right: 1rem;
+  }
+  .header-buttons {
+    margin-left: 0;
+  }
+  .header-buttons-menu {
+    min-width: 75px;
+  }
+  .header-buttons-search {
+    display: none;
+  }
+  /******************************************
+	# MOBILE MENU
+	******************************************/
+  .mobile-menu nav {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  /******************************************
+	# SEARCH BAR
+	******************************************/
+  #searchBar.menu-overlay {
+    z-index: 3;
+  }
+  .search-bar {
+    background: 0;
+    position: relative;
+    position: unset;
+    width: 100%;
+    max-width: 600px;
+  }
+  .search-bar .toggle-close {
+    display: none;
+  }
+  .search_form {
+    display: flex;
+  }
+  #parent {
+    border: 0;
+    width: 150px;
+    margin-bottom: 0;
+  }
+  #parent,
+  #searchproduct,
+  #search_link {
+    padding-top: 19px;
+    padding-bottom: 16px;
+  }
+  #searchproduct {
+    width: 225px;
+  }
+  #search_link {
+    margin-top: 0;
+  }
+}
+@media screen and (min-width: 960px) {
+  /******************************************
+	# ACCORDION
+	******************************************/
+  .accordion:after {
+    content: "\f067";
+  }
+  .accordion:after,
+  .accordionActive:after {
+    content: "\f067";
+    font-size: 0.75rem;
+    font-family: fontawesome;
+    font-weight: 900;
+    margin-left: 0.25rem;
+  }
+  .accordionActive:after {
+    content: "\f068";
+  }
+  /******************************************
+	# HEADER
+	******************************************/
+  .site-branding {
+    flex: 0 0 100px;
+    margin-right: 2rem;
+  }
+  .header-buttons-menu {
+    display: none;
+  }
+  .header-buttons-cart {
+    display: flex;
+  }
+  .header-buttons-checkout {
+    display: flex;
+  }
+  /******************************************
+	# NAVIGATION
+	******************************************/
+  .desktop-menu {
+    border-bottom: 2px solid #fafafb;
+    display: block;
+  }
+  .navbar-item {
+    flex: auto;
+  }
+  .navbar-item:hover {
+    background-color: #005980;
+  }
+  .navbar-dropdown {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  .desktop-menu .submenu-1,
+  .desktop-menu .submenu-2,
+  .desktop-menu .submenu-3 {
+    display: none;
+    position: absolute;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    border-top: 2px solid #fafafb;
+  }
+  .desktop-menu .submenu-2,
+  .desktop-menu .submenu-3 {
+    border-left: 2px solid #fafafb;
+  }
+  .navbar-dropdown:hover .submenu-1,
+  .desktop-menu .submenu-1 > li:hover .submenu-2,
+  .desktop-menu .submenu-2 > li:hover .submenu-3 {
+    display: block;
+  }
+  .desktop-menu .submenu-item {
+    border-bottom: 1px solid rgba(0, 142, 204, 0.3);
+  }
+  .desktop-menu .submenu-item:hover {
+    background-color: #fc7019;
+  }
+  .desktop-menu .submenu-2 {
+    left: 275px;
+    margin-top: calc(-3rem - 2px);
+  }
+  .desktop-menu .submenu-3 {
+    left: 273px;
+  }
+  .dd-rs,
+  .dd-pci,
+  .dd-7188,
+  .dd-mcom,
+  .dd-wcom {
+    margin-top: -2px;
+  }
+  .dd-fbus {
+    margin-top: calc(-2rem - 2px);
+  }
+  .dd-serial,
+  .dd-8k {
+    top: -2px;
+  }
+  .dd-fcom {
+    top: -9.3rem;
+  }
+  .dd-remote {
+    top: calc(-7.5rem + 2px);
+  }
+  .dd-rack {
+    top: calc(-8.25rem - 1px);
+  }
+  .dd-scom {
+    top: calc(3rem - 1px);
+  }
+  .dd-rs {
+    top: calc(4rem + 1px);
+  }
+  .dd-wireless {
+    top: 3rem;
+  }
+  .dd-pci {
+    top: calc(6rem + 2px);
+  }
+  .dd-7188 {
+    top: 6.15rem;
+  }
+  .dd-motion {
+    top: calc(9rem + 1px);
+  }
+  .dd-logger {
+    top: calc(12rem + 2px);
+  }
+  .dd-mcom {
+    top: calc(9rem + 3px);
+  }
+  .dd-wcom {
+    top: calc(12rem + 4px);
+  }
+  .dd-pac {
+    top: calc(18.5rem - 3px);
+  }
+  .dd-wpac {
+    top: calc(-4rem - 3px);
+  }
+  .dd-mpac {
+    top: 6rem;
+  }
+  .dd-tpac {
+    top: calc(-3rem - 3px);
+  }
+  .dd-support,
+  .dd-about {
+    width: 150px;
+  }
+  .dd-resources {
+    width: 175px;
+  }
+  .dd-solutions,
+  .dd-tmon,
+  .dd-mpac {
+    width: 225px;
+  }
+  .dd-cables {
+    width: 250px;
+  }
+  .dd-products,
+  .dd-converters,
+  .dd-data,
+  .dd-controllers,
+  .dd-com,
+  .dd-power,
+  .dd-tcon,
+  .dd-serial,
+  .dd-rs,
+  .dd-fbus,
+  .dd-remote,
+  .dd-rack,
+  .dd-pci,
+  .dd-motion,
+  .dd-8k,
+  .dd-7188,
+  .dd-fcom,
+  .dd-scom,
+  .dd-mcom,
+  .dd-wcom,
+  .dd-logger,
+  .dd-pac,
+  .dd-wpac,
+  .dd-tpac {
+    width: 275px;
+  }
+  .dd-software,
+  .dd-wireless {
+    width: 300px;
+  }
+  .dd-ethernet {
+    width: 325px;
+  }
+  .panel .submenu-item {
+    transition: 0.3s;
+    padding-right: 2rem;
+  }
+  .panel .submenu-item:hover {
+    padding-left: 0.5rem;
+  }
+  /******************************************
+	# GOOGLE TRANSLATE
+	******************************************/
+  .language {
+    height: 30vh;
+  }
+  .language-menu {
+    display: flex;
+    padding: 0;
+  }
+  #google_translate_element {
+    width: 40%;
+  }
+  .goog-te-banner-frame {
+    display: block !important;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /******************************************
+	# HEADER
+	******************************************/
+  .header-buttons-cart {
+    display: flex;
+  }
+}
+/******************************************
+# IPAD PRO PORTRAIT
+******************************************/
+@media only screen and (min-width: 1024px) and (max-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .header-buttons-menu {
+    display: block;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .header-buttons-cart {
+    display: flex;
+  }
+  .header-buttons-checkout {
+    display: none;
+  }
+  .desktop-menu {
+    display: none;
+  }
+  .mobile-menu {
+    display: block;
+  }
+  .footer-bar {
+    display: block;
+    padding: 2rem;
+  }
+}
+@media screen and (min-width: 1150px) {
+  /******************************************
+	# HEADER
+	******************************************/
+  .site-branding {
+    max-width: 100px;
+  }
+  .header-social {
+    display: block;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .header-social-inner {
+    display: flex;
+  }
+  /******************************************
+	# SEARCH BAR
+	******************************************/
+  .search-bar {
+    margin-right: 0;
+    width: auto;
+  }
+  /******************************************
+	# NAVIGATION
+	******************************************/
+  .navbar .fs-xs {
+    font-size: 0.95rem;
+  }
+  .desktop-menu .submenu-2 {
+    left: 320px;
+    margin-top: calc(-2rem - 2px);
+  }
+  .desktop-menu .dd-fcom,
+  .desktop-menu .dd-scom,
+  .desktop-menu .dd-mcom,
+  .desktop-menu .dd-wcom {
+    left: 248px;
+  }
+  .desktop-menu .dd-serial,
+  .desktop-menu .dd-rs,
+  .desktop-menu .dd-fbus,
+  .desktop-menu .dd-remote,
+  .desktop-menu .dd-rack,
+  .desktop-menu .dd-pci,
+  .desktop-menu .dd-motion,
+  .desktop-menu .dd-8k,
+  .desktop-menu .dd-7188,
+  .desktop-menu .dd-logger {
+    left: 278px;
+  }
+  .desktop-menu .dd-wpac,
+  .desktop-menu .dd-mpac,
+  .desktop-menu .dd-tpac {
+    left: 288px;
+  }
+  .dd-rack {
+    top: calc(-8.5rem - 2px);
+  }
+  .dd-fcom {
+    top: calc(-9.6rem - 1px);
+  }
+  .dd-remote {
+    top: calc(-8rem + 2px);
+  }
+  .dd-logger {
+    top: calc(12.5rem + 2px);
+  }
+  .dd-converters {
+    top: 2rem;
+  }
+  .dd-scom {
+    top: calc(3.25rem - 3px);
+  }
+  .dd-rs {
+    top: calc(4rem + 5px);
+  }
+  .dd-wireless {
+    top: calc(4.75rem + 7px);
+  }
+  .dd-data {
+    top: calc(5rem + 3px);
+  }
+  .dd-7188 {
+    top: calc(6.15rem + 4px);
+  }
+  .dd-pci {
+    top: calc(6.5rem - 2px);
+  }
+  .dd-controllers {
+    top: calc(8.5rem - 2px);
+  }
+  .dd-fbus {
+    top: 9.5rem;
+  }
+  .dd-mcom {
+    top: calc(9.5rem + 1px);
+  }
+  .dd-motion {
+    top: calc(9.5rem - 1px);
+  }
+  .dd-ethernet {
+    top: calc(11.5rem + 1px);
+  }
+  .dd-wcom {
+    top: calc(13rem - 4px);
+  }
+  .dd-com {
+    top: 14.75rem;
+  }
+  .dd-power {
+    top: calc(21rem + 2px);
+  }
+  .dd-tcon {
+    top: calc(24.25rem + 1px);
+  }
+  .dd-tmon {
+    top: 27.5rem;
+  }
+  .dd-pac {
+    top: calc(18rem - 1px);
+  }
+  .dd-wpac {
+    top: calc(-3.5rem + 3px);
+  }
+  .dd-mpac {
+    top: calc(6rem + 4px);
+  }
+  .dd-tpac {
+    top: calc(-3rem - 5px);
+  }
+  .dd-support,
+  .dd-about {
+    width: 175px;
+  }
+  .dd-resources {
+    width: 200px;
+  }
+  .dd-com,
+  .dd-tmon,
+  .dd-solutions,
+  .dd-mpac {
+    width: 250px;
+  }
+  .dd-converters,
+  .dd-data,
+  .dd-controllers,
+  .dd-cables {
+    width: 280px;
+  }
+  .dd-pac {
+    width: 290px;
+  }
+  .dd-rs,
+  .dd-pci,
+  .dd-fcom,
+  .dd-tcon {
+    width: 300px;
+  }
+  .dd-products {
+    width: 320px;
+  }
+  .dd-fbus,
+  .dd-8k,
+  .dd-7188,
+  .dd-wireless,
+  .dd-software,
+  .dd-tpac {
+    width: 325px;
+  }
+  .dd-remote,
+  .dd-rack,
+  .dd-ethernet {
+    width: 350px;
+  }
+  .dd-scom {
+    width: 375px;
+  }
+  .dd-serial,
+  .dd-wpac {
+    width: 400px;
+  }
+}
+@media screen and (min-width: 1250px) {
+  /******************************************
+	# PROPERTIES
+	******************************************/
+  #searchproduct {
+    width: 300px;
+  }
+}
+@media screen and (min-width: 1300px) {
+  /******************************************
+	# HEADER
+	******************************************/
+  .promo-bar-inner {
+    justify-content: space-between;
+  }
+  .promo-bar-inner div:first-of-type {
+    display: flex;
+    align-items: center;
+  }
+  /******************************************
+	# NAVIGATION
+	******************************************/
+  .desktop-menu .dd-remote,
+  .desktop-menu .dd-rack,
+  .desktop-menu .dd-pci,
+  .desktop-menu .dd-motion,
+  .desktop-menu .dd-logger {
+    left: 298px;
+  }
+  .desktop-menu .dd-serial,
+  .desktop-menu .dd-rs,
+  .desktop-menu .dd-fbus,
+  .desktop-menu .dd-8k,
+  .desktop-menu .dd-7188 {
+    left: 398px;
+  }
+  .dd-rs {
+    top: calc(3rem + 3px);
+  }
+  .dd-fbus {
+    top: calc(8.25rem + 2px);
+  }
+  .dd-data,
+  .dd-pci,
+  .dd-motion {
+    width: 300px;
+  }
+  .dd-converters,
+  .dd-controllers,
+  .dd-logger {
+    width: 400px;
+  }
+  .dd-mcom {
+    width: 475px;
+  }
+  .dd-remote {
+    width: 550px;
+  }
+}

@@ -1,0 +1,235 @@
+.building-automation .banner {
+	background: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-solutions-building-automation-480w.jpg');
+	background-size: cover;
+}
+.factory-automation .banner {
+	background: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-solutions-factory-automation-480w.jpg');
+	background-size: cover;
+}
+.green-energy .banner {
+	background: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-solutions-green-energy-480w.jpg');
+	background-size: cover;
+}
+.food-and-beverage .banner {
+	background: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-solutions-food-and-beverage-480w.jpg');
+	background-size: cover;
+}
+.laboratories .banner {
+	background: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-solutions-laboratories-480w.jpg');
+	background-size: cover;
+}
+.transportation .banner {
+	background: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-solutions-transportation-480w.jpg');
+	background-size: cover;
+}
+.iiot .banner {
+	background: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-solutions-iiot-480w.jpg');
+	background-size: cover;
+}
+.videos .banner {
+	background: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-solution-videos-480w.jpg');
+	background-size: cover;
+}
+.video-library .banner {
+	background: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-solution-video-library-480w.jpg');
+	background-size: cover;
+}
+.case-study .banner {
+	background: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-case-study-480w.jpg');
+	background-size: cover;
+}
+.tracking .banner {
+	background: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-tracking-480w.jpg');
+	background-size: cover;
+}
+.warranty .banner {
+	background: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-warranty-480w.jpg');
+	background-size: cover;
+}
+.white-papers .banner {
+	background: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-white-papers-480w.jpg');
+	background-size: cover;
+}
+.white-papers-remake .banner {
+	background: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-white-papers-remake-480w.jpg');
+	background-size: cover;
+}
+.contact .banner {
+	background: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-contact-480w.jpg');
+	background-size: cover;
+}
+.sitemap .banner {
+	background: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-sitemap-480w.jpg');
+	background-size: cover;
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+	.building-automation .banner {
+		background-image: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-solutions-building-automation-768w.jpg');
+		background-position: center left;
+		background-size: cover;
+	}
+	.factory-automation .banner {
+		background-image: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-solutions-factory-automation-768w.jpg');
+		background-position: center left;
+		background-size: cover;
+	}
+	.green-energy .banner {
+		background: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-solutions-green-energy-768w.jpg');
+		background-position: bottom center;
+		background-size: cover;
+	}
+	.food-and-beverage .banner {
+		background: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-solutions-food-and-beverage-768w.jpg');
+		background-position: center;
+		background-size: cover;
+	}
+	.laboratories .banner {
+		background: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-solutions-laboratories-768w.jpg');
+		background-position: bottom center;
+		background-size: cover;
+	}
+	.transportation .banner {
+		background: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-solutions-transportation-768w.jpg');
+		background-position: bottom center;
+		background-size: cover;
+	}
+	.iiot .banner {
+		background: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-solutions-iiot-768w.jpg');
+		background-position: bottom center;
+		background-size: cover;
+	}
+    .videos .banner {
+		background: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-solution-videos-768w.jpg');
+		background-position: bottom center;
+		background-size: cover;
+	}
+    .video-library .banner {
+        background: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-solution-video-library-768w.jpg');
+        background-position:  0 45%;
+        background-size: cover;
+    }
+    .case-study .banner {
+        background: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-case-study-768w.jpg');
+        background-position: bottom center;
+        background-size: cover;
+    }
+    .tracking .banner {
+        background: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-tracking-768w.jpg');
+        background-position: 0 60%;
+        background-size: cover;
+    }
+    .warranty .banner {
+        background: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-warranty-768w.jpg');
+        background-position: 0 45%;
+        background-size: cover;
+    }
+    .white-papers .banner {
+        background: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-white-papers-768w.jpg');
+        background-position: bottom center;
+        background-size: cover;
+    }
+    .white-papers-remake .banner {
+        background: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-white-papers-remake-768w.jpg');
+        background-position: 0 45%;
+        background-size: cover;
+    }
+    .contact .banner {
+        background: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-contact-768w.jpg');
+        background-position: 0 45%;
+        background-size: cover;
+    }
+    .sitemap .banner {
+        background: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-sitemap-768w.jpg');
+        background-position: 0 75%;
+        /* background-position: bottom center; */
+        background-size: cover;
+    }
+
+}
+
+@media screen and (min-width: 769px) {
+	.building-automation .banner {
+		background-image: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-solutions-building-automation-full.jpg');
+		background-position: bottom left;
+		background-size: cover;
+	}
+	.factory-automation .banner {
+		background-image: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-solutions-factory-automation-full.jpg');
+		background-position: center left;
+		background-size: cover;
+	}
+	.green-energy .banner {
+		background: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-solutions-green-energy-full.jpg');
+		background-position: bottom center;
+		background-size: cover;
+	}
+	.food-and-beverage .banner {
+		background: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-solutions-food-and-beverage-full.jpg');
+		background-position: center;
+		background-size: cover;
+	}
+	.laboratories .banner {
+		background: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-solutions-laboratories-full.jpg');
+		background-position: bottom center;
+		background-size: cover;
+	}
+	.transportation .banner {
+		background: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-solutions-transportation-full.jpg');
+		background-position: center;
+		background-size: cover;
+	}
+	.iiot .banner {
+		background: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-solutions-iiot-full.jpg');
+		background-position: center;
+		background-size: cover;
+	}
+    .videos .banner {
+		background: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-solution-videos-full.jpg');
+		background-position: center;
+		background-size: cover;
+	}
+    .video-library .banner {
+        background: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-solution-video-library-full.jpg');
+        background-position:  0 45%;
+        background-size: cover;
+    }
+    .case-study .banner {
+        background: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-case-study-full.jpg');
+        background-position: bottom center;
+        background-size: cover;
+    }
+    .tracking .banner {
+        background: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-tracking-full.jpg');
+        background-position: 0 60%;
+        background-size: cover;
+    }
+    .warranty .banner {
+        background: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-warranty-full.jpg');
+        background-position: 0 45%;
+        background-size: cover;
+    }
+    .white-papers .banner {
+        background: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-white-papers-full.jpg');
+        background-position: bottom center;
+        background-size: cover;
+    }
+    .white-papers-remake .banner {
+        background: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-white-papers-remake-full.jpg');
+        background-position: 0 45%;
+        background-size: cover;
+    }
+    .contact .banner {
+        background: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-contact-full.jpg');
+        background-position: 0 45%;
+        background-size: cover;
+    }
+    .sitemap .banner {
+        background: linear-gradient(to right, rgba(0, 142, 204, 0.72), rgba(252, 112, 25, 0.12)), url('../img/solutions/icp-das-usa-sitemap-full.jpg');
+        background-position: 0 75%;
+        /* background-position: bottom center; */
+        background-size: cover;
+    }
+
+}

@@ -1,0 +1,591 @@
+/******************************************
+# BANNER
+******************************************/
+
+.banner {
+    background: #008ecc url("../img/icp-das-usa-banner-480w.jpg") no-repeat
+        right center;
+    background-size: cover;
+}
+.banner-inner {
+    top: 200px;
+}
+
+/******************************************
+# CONTAINER: CATEGORY
+******************************************/
+
+.category {
+    margin-top: calc(200px + 2rem);
+}
+.category-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.25rem;
+}
+.category .click-image {
+    min-height: 135px;
+}
+.category .click-image img {
+    width: 100%;
+    object-fit: contain;
+}
+.category .click-header {
+    min-height: 94px;
+    height: 90px;
+}
+.category .click-icon {
+    top: -106px;
+    margin-bottom: -28px;
+}
+
+/******************************************
+# CONTAINER: TRIO
+******************************************/
+
+.trio-icon {
+    font-size: 3rem;
+}
+.trio-header {
+    font-size: 1.75rem;
+}
+.trio-1 h4 a:hover {
+    text-decoration: underline;
+}
+.trio-2 .trio-item i {
+    margin-bottom: 0.5rem;
+}
+.trio-3 .trio-item {
+    text-align: left;
+}
+.trio-3 span {
+    padding-right: 1rem;
+}
+/******************************************
+# SOLUTIONS
+******************************************/
+.solutions .click-icon {
+    top: -72px;
+    margin-bottom: -28px;
+}
+.solutions .click-header {
+    min-height: 60px;
+}
+
+/******************************************
+
+# RESPONSIVE
+
+******************************************/
+
+@media screen and (max-width: 374px) {
+    /******************************************
+	# BANNER
+	******************************************/
+    .banner h1,
+    .banner .ic-p {
+        color: #005980;
+    }
+    /******************************************
+	# NEWS
+	******************************************/
+    .news-social-header {
+        display: block;
+        margin-bottom: 1rem;
+    }
+}
+@media screen and (min-width: 375px) {
+    /******************************************
+	# BANNER
+	******************************************/
+    .banner {
+        background-image: linear-gradient(
+                to right,
+                rgba(0, 142, 204, 0.72),
+                rgba(252, 112, 25, 0.12)
+            ),
+            url("../img/icp-das-usa-banner-480w.jpg");
+    }
+    .banner-inner {
+        top: 0;
+    }
+    .banner-header {
+        color: #fafafb;
+        font-size: 1.25rem;
+    }
+    /******************************************
+	# CONTAINER: CATEGORY
+	******************************************/
+    .category {
+        margin-top: 0;
+    }
+    /******************************************
+	# CONTAINER: TRIO
+	******************************************/
+    .trio p,
+    .trio-content {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+@media screen and (min-width: 425px) {
+    /******************************************
+	# BANNER
+	******************************************/
+    .banner-header {
+        font-size: 1.4rem;
+    }
+}
+@media screen and (min-width: 480px) {
+    /******************************************
+	# ICON
+	******************************************/
+    .ic-p {
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 767px) {
+    /******************************************
+	# BANNER
+	******************************************/
+    .banner {
+        height: 350px;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    /******************************************
+	# BANNER
+	******************************************/
+    .banner {
+        background-image: linear-gradient(
+                to right,
+                rgba(0, 142, 204, 0.72),
+                rgba(252, 112, 25, 0.05)
+            ),
+            url("../img/icp-das-usa-banner-768w.jpg");
+    }
+}
+@media screen and (min-width: 768px) {
+    /******************************************
+	# BANNER
+	******************************************/
+    .banner {
+        height: 400px;
+    }
+    .banner-header {
+        font-size: 2.75rem;
+    }
+    /******************************************
+	# CONTAINER: CATEGORY
+	******************************************/
+    .category-grid {
+        display: flex;
+    }
+    .category-grid .rollover-item {
+        margin-right: 0.25rem;
+        margin-bottom: 0;
+    }
+    .category-grid .rollover-item:last-of-type {
+        margin-right: 0;
+    }
+    .category .click-header {
+        font-size: 0.85rem;
+    }
+    .category .click-image {
+        height: 135px;
+    }
+    /******************************************
+	# CONTAINER: NEWS
+	******************************************/
+    .news-inner {
+        display: flex;
+        flex-direction: column;
+        display: grid;
+        grid-gap: 0;
+    }
+    /******************************************
+	# CONTAINER: POPULAR
+	******************************************/
+    .popular-image {
+        margin-bottom: 1rem;
+    }
+    .popular-image img {
+        height: 200px;
+    }
+    /******************************************
+	# CONTAINER: TRIO
+	******************************************/
+    .trio-inner {
+        display: flex;
+    }
+    .trio-content {
+        width: 100%;
+        padding: 0;
+    }
+    .trio-inner > div {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .trio-item h4 {
+        margin-bottom: 0.5rem;
+    }
+    .trio-3 .trio-item {
+        text-align: center;
+    }
+    .trio-3 .trio-item span {
+        padding-right: 0;
+    }
+    .trio-3 .trio-item i {
+        display: none;
+    }
+    /******************************************
+	# SOLUTIONS
+	******************************************/
+    .solutions-row {
+        flex-direction: row;
+    }
+    .solutions-row:first-of-type {
+        margin-bottom: 0.5rem;
+    }
+    .solutions-item {
+        margin-top: 0;
+        margin-right: 0.5rem;
+    }
+    .solutions-item:last-of-type {
+        margin-right: 0;
+    }
+    .solutions .click-header {
+        font-size: 0.85rem;
+    }
+}
+@media screen and (min-width: 769px) {
+    /******************************************
+	# BANNER
+	******************************************/
+    .banner {
+        background-image: linear-gradient(
+                to right,
+                rgba(0, 142, 204, 0.72),
+                rgba(252, 112, 25, 0.05)
+            ),
+            url("../img/icp-das-usa-banner-full.jpg");
+    }
+    /******************************************
+	# CONTAINER: CATEGORY
+	******************************************/
+    .category .rollover-overlay {
+        display: none;
+    }
+    .category .click-image {
+        height: 175px;
+    }
+    /******************************************
+	# SOLUTIONS
+	******************************************/
+    .solutions .click-icon {
+        display: none;
+    }
+    .solutions .click-header {
+        border: 0;
+        background: 0;
+        padding: 0;
+        font-weight: 500;
+        min-height: unset;
+        top: unset;
+        margin-bottom: 0;
+        font-size: 1.2rem;
+    }
+    .solutions .rollover-item {
+        width: 50%;
+    }
+    .solutions .rollover-overlay {
+        background-color: rgba(252, 112, 25, 0.6);
+        opacity: 1;
+    }
+    .solutions .rollover-item:hover .rollover-overlay {
+        opacity: 0;
+    }
+}
+@media screen and (min-width: 960px) {
+    /******************************************
+	# CONTAINER: ABOUT
+	******************************************/
+    .about-inner {
+        display: flex;
+        display: grid;
+        grid-template-columns: 250px 1fr;
+        height: 100%;
+    }
+    .about .side-image {
+        max-height: 241px;
+    }
+    .about .side-image:nth-child(2) {
+        margin-bottom: 1rem;
+    }
+    .about .side-image img {
+        max-width: 250px;
+    }
+    .about article {
+        background-color: #eff1f2;
+        padding: 2rem;
+        margin-left: 1rem;
+    }
+    /******************************************
+	# CONTAINER: CATEGORY
+	******************************************/
+    .category-grid {
+        grid-column-gap: 0.75rem;
+    }
+    .category .click-header {
+        font-size: 1rem;
+        min-height: 103px;
+        height: 100px;
+    }
+    .category .click-image {
+        height: 179.2px;
+    }
+    .category .click-icon {
+        top: -114px;
+    }
+    /******************************************
+	# CONTAINER: NEWS
+	******************************************/
+    .news-inner {
+        flex-direction: row;
+        align-items: center;
+        grid-template-columns: 50% 1fr;
+    }
+    .news-content {
+        margin-left: 1.5rem;
+    }
+    .youtube-link {
+        flex: 0 0 50%;
+        margin-bottom: 0;
+    }
+    .youtube-link a {
+        height: 100%;
+    }
+    .youtube-image {
+        object-fit: cover;
+    }
+    /******************************************
+	# CONTAINER: TRIO
+	******************************************/
+    .trio-inner {
+        width: calc(100vw - 4rem);
+        max-width: 1280px;
+    }
+    .trio-1 {
+        padding-left: 0;
+    }
+    .trio-3 {
+        padding-right: 0;
+    }
+    /******************************************
+	# CONTAINER: STORY
+	******************************************/
+
+    .story-inner {
+        display: flex;
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 350px;
+        height: 100%;
+    }
+    .story-image {
+        display: none;
+    }
+    .story .side-gallery {
+        margin-left: 2rem;
+    }
+    .story .side-image {
+        max-height: 335.5px;
+    }
+    .story .side-image img {
+        max-height: 275px;
+        width: 100%;
+    }
+}
+@media screen and (min-width: 1024px) {
+    /******************************************
+	# BANNER
+	******************************************/
+    .banner {
+        height: 50vh;
+    }
+    /******************************************
+	# CONTAINER: CATEGORY
+	******************************************/
+    .category .click-image {
+        height: 179.2px;
+    }
+    /******************************************
+	# CONTAINER: POPULAR
+	******************************************/
+    .popular-content {
+        display: flex;
+    }
+    .popular-content,
+    .popular-image {
+        min-height: 286px;
+        height: 100%;
+    }
+    .popular-image {
+        margin-bottom: 0;
+        margin-right: 1rem;
+        float: left;
+    }
+    .popular-image img {
+        height: 200px;
+    }
+    .popular-content .btn {
+        width: 145px;
+        width: fit-content;
+    }
+    /******************************************
+	# CONTAINER: TRIO
+	******************************************/
+    .trio-1 {
+        padding-right: 2rem;
+    }
+    .trio-2 {
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+    .trio-3 {
+        padding-left: 2rem;
+    }
+    .trio-3 .trio-item {
+        justify-content: space-between;
+        text-align: left;
+        max-width: 325px;
+    }
+    .trio-3 .trio-item span {
+        padding-right: 1.5rem;
+    }
+    .trio-3 .trio-item i {
+        display: block;
+    }
+    /******************************************
+	# CONTAINER: STORY
+	******************************************/
+    .story-grid {
+        grid-gap: 2rem;
+    }
+}
+/******************************************
+# IPAD PRO PORTRAIT
+******************************************/
+@media only screen and (min-width: 1024px) and (max-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .banner {
+        height: 400px;
+    }
+}
+@media screen and (min-width: 1100px) {
+    /******************************************
+	# CONTAINER: CATEGORY
+	******************************************/
+    .category .click-image {
+        height: 243.2px;
+    }
+    /******************************************
+	# CONTAINER: TRIO
+	******************************************/
+    .trio-header {
+        font-size: 2rem;
+    }
+    /******************************************
+	# CONTAINER: STORY
+	******************************************/
+    .story article {
+        background-color: #eff1f2;
+        padding: 2rem;
+    }
+}
+@media screen and (min-width: 1200px) {
+    /******************************************
+	# BANNER
+	******************************************/
+    .banner {
+        height: 60vh;
+    }
+    .banner-header {
+        font-size: 3.5rem;
+    }
+    .banner-header,
+    .banner-list {
+        margin-bottom: 2rem;
+    }
+    /******************************************
+	# CONTAINER: CATEGORY
+	******************************************/
+    .category .rollover-overlay {
+        background-color: rgba(252, 112, 25, 0.9);
+        z-index: 2;
+        display: block;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    .category .rollover-overlay li {
+        margin-bottom: 0.25rem;
+        line-height: 1.1;
+    }
+    .category .rollover-overlay li a:hover {
+        text-decoration: underline;
+    }
+    /******************************************
+	# CONTAINER: NEWS
+	******************************************/
+    .news-inner .responsive-video {
+        max-width: 500px;
+    }
+    /******************************************
+	# CONTAINER: TRIO
+	******************************************/
+    .trio-3 .trio-content span {
+        padding-right: 2rem;
+    }
+    .trio .container-1 {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+    /******************************************
+	# CONTAINER: STORY
+	******************************************/
+    .story-grid {
+        grid-template-columns: 450px 1fr;
+    }
+}
+@media screen and (min-width: 1300px) {
+    /******************************************
+	# BANNER
+	******************************************/
+    .banner {
+        background-image: linear-gradient(
+                to right,
+                rgba(0, 142, 204, 0.72),
+                rgba(252, 112, 25, 0.05)
+            ),
+            url("../img/icp-das-usa-banner-full.jpg");
+    }
+    /******************************************
+	# CONTAINER: CATEGORY
+	******************************************/
+    .category .rollover-overlay {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    /******************************************
+	# CONTAINER: NEWS
+	******************************************/
+    .news-inner .responsive-video {
+        max-width: 600px;
+    }
+}
+@media screen and (min-width: 1400px) {
+    /******************************************
+	# BANNER
+	******************************************/
+    .banner {
+        height: 71vh;
+    }
+}
