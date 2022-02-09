@@ -42,6 +42,11 @@ $product_data = $product->get_data();
             <p class="font-light"><?=$product_data['short_description'];?></p>
             <p><?=$product_data['short_description'];?></p>
             <p class="font-semibold"><?=$product_data['short_description'];?></p>
+            <hr>
+            <p class="font-thin"><?=$product_data['short_description'];?></p>
+            <p class="font-light"><?=$product_data['short_description'];?></p>
+            <p><?=$product_data['short_description'];?></p>
+            <p class="font-semibold"><?=$product_data['short_description'];?></p>
         </div>
         <?php
 
