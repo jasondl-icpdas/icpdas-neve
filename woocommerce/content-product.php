@@ -19,10 +19,10 @@ defined( 'ABSPATH' ) || exit;
 
 global $product;
 
-// echo "<pre>";
-var_dump($product->get_data());
-// echo "</pre>";
-// echo "hello";
+echo "<pre>";
+// var_dump($product->get_data());
+echo "hello";
+echo "</pre>";
 
 // Ensure visibility.
 if ( empty( $product ) || ! $product->is_visible() ) {
