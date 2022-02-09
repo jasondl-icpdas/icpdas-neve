@@ -19,9 +19,9 @@ defined( 'ABSPATH' ) || exit;
 
 global $product;
 
-echo "<pre>";
+// echo "<pre>";
 // var_dump($product->get_data());
-echo "</pre>";
+// echo "</pre>";
 
 // Ensure visibility.
 if ( empty( $product ) || ! $product->is_visible() ) {
