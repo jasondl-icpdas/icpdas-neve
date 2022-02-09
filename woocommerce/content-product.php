@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The template for displaying product content within loops
  *
@@ -15,7 +16,7 @@
  * @version 3.6.0
  */
 
-defined( 'ABSPATH' ) || exit;
+defined('ABSPATH') || exit;
 
 global $product;
 
@@ -24,29 +25,58 @@ echo "I guess this works";
 echo "</pre>";
 
 // Ensure visibility.
-if ( empty( $product ) || ! $product->is_visible() ) {
-	return;
+if (empty($product) || !$product->is_visible()) {
+    return;
 }
 $product_data = $product->get_data();
 ?>
 <div class="container mx-auto">
-<!-- <li <?php //wc_product_class( '', $product ); ?>> -->
-	<?php
-        ?>
-        <div>
-            <div class="flex justify-around text-primary">
-                <h3><?=$product->get_title();?></h3>
-                <h3><?=$product_data['price']?></h3>
+    <!-- <li <?php //wc_product_class( '', $product ); 
+                ?>> -->
+    <?php
+    ?>
+    <div>
+        <div class="flex justify-between text-primary">
+            <h3><?= $product->get_title(); ?></h3>
+            <h3><?= $product_data['price'] ?></h3>
+        </div>
+        <p class="font-thin"><?= $product_data['short_description']; ?></p>
+        <hr>
+        <div class="flex flex-wrap mt-12 justify-center">
+            <div class="grid grid-cols-1 sm:grid-cols-6 md:grid-cols-6 lg:grid-cols-6 xl:grid-cols-6 gap-4">
+                <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+                    <img alt="..." src="https://source.unsplash.com/gUBJ9vSlky0" class="h-24 w-24 rounded  mx-auto" />
+                </div>
+                <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+                    <h3 class="font-semibold text-black">Veggie</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                </div>
+                <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic ">$22</div>
+
+                <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+                    <img alt="..." src="https://source.unsplash.com/UxRhrU8fPHQ" class="h-24 w-24 rounded  mx-auto" />
+                </div>
+                <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+                    <h3 class="font-semibold text-black">Festival</h3>
+                    <p>
+                        Nam ac ligula in metus feugiat pulvinar vel ac augue.
+                    </p>
+                </div>
+                <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic ">$16</div>
+
+                <div class="col-span-2 sm:col-span-1 xl:col-span-1">
+                    <img alt="..." src="https://source.unsplash.com/uU0Anw-8Vsg" class="h-24 w-24 rounded  mx-auto" />
+                </div>
+                <div class="col-span-2 sm:col-span-4 xl:col-span-4">
+                    <h3 class="font-semibold text-black">Pepperoni</h3>
+                    <p>
+                        Suspendisse pharetra lacus in ipsum porta rutrum.
+                    </p>
+                </div>
+                <div class="col-span-2 sm:col-span-1 xl:col-span-1 italic ">$18</div>
             </div>
-            <p class="font-thin"><?=$product_data['short_description'];?></p>
-            <p class="font-light"><?=$product_data['short_description'];?></p>
-            <p><?=$product_data['short_description'];?></p>
-            <p class="font-semibold"><?=$product_data['short_description'];?></p>
-            <hr>
-            <p class="font-thin"><?=$product_data['short_description'];?></p>
-            <p class="font-light"><?=$product_data['short_description'];?></p>
-            <p><?=$product_data['short_description'];?></p>
-            <p class="font-semibold"><?=$product_data['short_description'];?></p>
         </div>
         <?php
 
@@ -56,46 +86,46 @@ $product_data = $product->get_data();
 
 
 
-    
-	// /**
-	//  * Hook: woocommerce_before_shop_loop_item.
-	//  *
-	//  * @hooked woocommerce_template_loop_product_link_open - 10
-	//  */
-	// do_action( 'woocommerce_before_shop_loop_item' );
 
-	// /**
-	//  * Hook: woocommerce_before_shop_loop_item_title.
-	//  *
-	//  * @hooked woocommerce_show_product_loop_sale_flash - 10
-	//  * @hooked woocommerce_template_loop_product_thumbnail - 10
-	//  */
-	// do_action( 'woocommerce_before_shop_loop_item_title' );
+        // /**
+        //  * Hook: woocommerce_before_shop_loop_item.
+        //  *
+        //  * @hooked woocommerce_template_loop_product_link_open - 10
+        //  */
+        // do_action( 'woocommerce_before_shop_loop_item' );
 
-	// /**
-	//  * Hook: woocommerce_shop_loop_item_title.
-	//  *
-	//  * @hooked woocommerce_template_loop_product_title - 10
-	//  */
-	// do_action( 'woocommerce_shop_loop_item_title' );
+        // /**
+        //  * Hook: woocommerce_before_shop_loop_item_title.
+        //  *
+        //  * @hooked woocommerce_show_product_loop_sale_flash - 10
+        //  * @hooked woocommerce_template_loop_product_thumbnail - 10
+        //  */
+        // do_action( 'woocommerce_before_shop_loop_item_title' );
 
-	// /**
-	//  * Hook: woocommerce_after_shop_loop_item_title.
-	//  *
-	//  * @hooked woocommerce_template_loop_rating - 5
-	//  * @hooked woocommerce_template_loop_price - 10
-	//  */
-	// do_action( 'woocommerce_after_shop_loop_item_title' );
+        // /**
+        //  * Hook: woocommerce_shop_loop_item_title.
+        //  *
+        //  * @hooked woocommerce_template_loop_product_title - 10
+        //  */
+        // do_action( 'woocommerce_shop_loop_item_title' );
 
-	// /**
-	//  * Hook: woocommerce_after_shop_loop_item.
-	//  *
-	//  * @hooked woocommerce_template_loop_product_link_close - 5
-	//  * @hooked woocommerce_template_loop_add_to_cart - 10
-	//  */
-	// do_action( 'woocommerce_after_shop_loop_item' );
-    // echo "aadssadadsasd";
-	?>
-<!-- </li> -->
+        // /**
+        //  * Hook: woocommerce_after_shop_loop_item_title.
+        //  *
+        //  * @hooked woocommerce_template_loop_rating - 5
+        //  * @hooked woocommerce_template_loop_price - 10
+        //  */
+        // do_action( 'woocommerce_after_shop_loop_item_title' );
 
-</div>
+        // /**
+        //  * Hook: woocommerce_after_shop_loop_item.
+        //  *
+        //  * @hooked woocommerce_template_loop_product_link_close - 5
+        //  * @hooked woocommerce_template_loop_add_to_cart - 10
+        //  */
+        // do_action( 'woocommerce_after_shop_loop_item' );
+        // echo "aadssadadsasd";
+        ?>
+        <!-- </li> -->
+
+    </div>
