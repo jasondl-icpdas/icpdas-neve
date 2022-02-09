@@ -20,8 +20,7 @@ defined( 'ABSPATH' ) || exit;
 global $product;
 
 echo "<pre>";
-// var_dump($product->get_data());
-echo "hello";
+echo "I guess this works";
 echo "</pre>";
 
 // Ensure visibility.
