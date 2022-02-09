@@ -84,6 +84,7 @@ get_header('shop');
                 do_action('woocommerce_shop_loop');
 
                 wc_get_template_part('content', 'product');
+                woo_pagination();
             }
         }
 
